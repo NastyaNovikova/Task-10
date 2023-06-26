@@ -23,5 +23,6 @@ public class MyConfig {
         headers.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
         headers.setContentType(MediaType.APPLICATION_JSON);
         return headers;
+
     }
 }

@@ -59,4 +59,5 @@ import java.util.Map;
             HttpEntity<String> entity = new HttpEntity<>(null, headers);
             return restTemplate.exchange(URL + "/{id}", HttpMethod.DELETE, entity, String.class, uriVariables);
         }
+
     }
